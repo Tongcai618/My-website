@@ -1,50 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction of Tong</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Hello, World!</h1>
     </header>
     <section>
-    <h2>About Tong Cai </h2>
-    <p> Computer Science student at Northeastern University.</p>
-    <p>I am passionate about technology and programming,</p>
-    <p>and I am currently learning web development.</p>
-    <input id="name" onInput="getValue()" placeholder="your name..."><br/>
-    <span id="result"></span>
-    <script>
-        function getValue(){
-            let n = document.getElementById("name");
-            let nValue = n.value;
+        <h2>About Tong Cai </h2>
+        <p> Computer Science student at Northeastern University.</p>
+        <p>I am passionate about technology and programming,</p>
+        <p>and I am currently learning web development.</p>
 
-            let result = document.getElementById("result");
-            result.innerText = nValue;
-        }
+        <!-- Add a input block -->
+        <input id="name" onInput="getValue()" placeholder="your name...">
+        <br />
+        <span id="nameResult"></span>
 
-        </script>
-    <style>
-        ::placeholder{
-            color: blue;
-        }
-        input[type=text] {
-            padding: 12px;
-            border: 1px solid #efc9ef;
-            border-radius: 4px;
-            background-color: #1f8ac0;
-            color: purple;
-            font-weight: bold;
-        }
-    </style>
+        <!-- Add a calculate block -->
+        <input type="text" id="number" placeholder="Enter a number">
+        <br />
+        <button onclick="calculateExpression()">Calculate</button>
+        <span id="numberResult"></span>
     </section>
 
-    <footer> 
+
+
+    <footer>
         Hey~
     </footer>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
