@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Tong_Personal_Website/static/css/main.9d7264f3.css",
+    "main.js": "/Tong_Personal_Website/static/js/main.b3f58d66.js",
+    "static/js/787.cf482a7c.chunk.js": "/Tong_Personal_Website/static/js/787.cf482a7c.chunk.js",
+    "static/media/logo-T.png": "/Tong_Personal_Website/static/media/logo-T.bd66c15c3d4c0336c3be.png",
+    "static/media/helvetica-neu.ttf": "/Tong_Personal_Website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/Tong_Personal_Website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-s.png": "/Tong_Personal_Website/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/Tong_Personal_Website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Tong_Personal_Website/index.html",
+    "main.9d7264f3.css.map": "/Tong_Personal_Website/static/css/main.9d7264f3.css.map",
+    "main.b3f58d66.js.map": "/Tong_Personal_Website/static/js/main.b3f58d66.js.map",
+    "787.cf482a7c.chunk.js.map": "/Tong_Personal_Website/static/js/787.cf482a7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d7264f3.css",
+    "static/js/main.b3f58d66.js"
+  ]
+}
